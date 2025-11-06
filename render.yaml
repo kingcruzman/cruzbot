@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: cruzbot
-    env: node
-    buildCommand: npm install
-    startCommand: node bot.js
-    plan: free
